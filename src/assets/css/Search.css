@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  overflow: hidden;
+}
+.container{
+   padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+ outline: none;
+  width: 170px;
+  }
+  .mid{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+
+
+  }
