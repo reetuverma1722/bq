@@ -28,6 +28,12 @@ img {
     justify-content: center;
     flex-direction: row;
     margin: 10px;
-
-
+ padding-top: 20px  ;
+margin-left: 5px;
+padding-right: 150px;
+  }
+  h2{
+    padding-top: 5px;
+    font-size: 20px;
+    opacity: 70%;
   }

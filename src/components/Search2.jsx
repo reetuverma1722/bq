@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "/src/assets/css/Search2.css"
 const Search2 = () => {
   return (
    <>
     <div>
-        <button type='submit'>Search</button>
+        <button className='btn2' type='submit'>Search</button>
     </div>
    </>
   )

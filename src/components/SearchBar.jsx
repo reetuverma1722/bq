@@ -11,4 +11,4 @@ const SearchBar = () => {
   )
 }
 
-export default SearchBarP
+export default SearchBar;

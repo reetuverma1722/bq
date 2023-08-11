@@ -1,5 +1,6 @@
 import React from 'react';
 import "/src/assets/css/Login.css"
+import Footer from '../components/Footer';
 const Login = () => {
   return (<>
     <div className='main'>
@@ -12,7 +13,10 @@ const Login = () => {
         <label>Password</label>
         <input className='password' type='text' placeholder='Enter Your Password'/>
         <button className='btn' type='submit'>Log In</button>
-    </div></>
+        
+    </div>
+    <Footer/>
+    </>
   )
 }
 

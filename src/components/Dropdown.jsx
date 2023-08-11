@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Dropdown = () => {
   return (
    <>
     <div>
-        <label> All</label>
+       
         <select>
-            <option>Industry</option>
+            <option>All</option>
             <option>website</option>
             <option>Address</option>
             <option>Ticker</option>
