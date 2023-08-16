@@ -10,19 +10,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
+    padding-top: 15px;
 }
 img {
     display: flex;
+    
     justify-content: center;
     align-items: center;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
- outline: none;
-  width: 170px;
+ border: none;
+  width: 200px;
+  height: 80px;
   }
+
+
   .mid{
     display: flex;
     justify-content: center;
@@ -33,7 +37,11 @@ margin-left: 5px;
 padding-right: 150px;
   }
   h2{
-    padding-top: 5px;
+    padding-top: 45px;
     font-size: 20px;
     opacity: 70%;
+  margin-right: 80%;
+
+  
   }
+ 

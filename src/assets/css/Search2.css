@@ -1,9 +1,10 @@
 .btn2{
-    background-color:rgb(93, 209, 230);
-    width: 120px;
-    height: 30px;
+    background-color:rgb(77, 215, 240);
+    width: 150px;
+    height: 40px;
     border-radius: 5px;
-    outline: none;
+   border: none;
     color:#fff ;
+    text-align: center;
     
 }

@@ -1,0 +1,9 @@
+select,option{
+   
+    margin-right: 40px;
+    width: 200px;
+    height: 35px;
+    
+    border-radius: 3px;
+    border-color: rgb(214, 206, 206);
+}

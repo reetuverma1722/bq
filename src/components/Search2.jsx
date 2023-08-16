@@ -4,7 +4,7 @@ const Search2 = () => {
   return (
    <>
     <div>
-        <button className='btn2' type='submit'>Search</button>
+        <button className='btn2' type='submit'>Search <i class="fa fa-search"></i></button>
     </div>
    </>
   )

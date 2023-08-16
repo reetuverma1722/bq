@@ -1,20 +1,17 @@
 import React from 'react'
-import SearchBar from '../components/SearchBar';
-import Dropdown from '../components/Dropdown';
-import Search2 from '../components/Search2';
+
 import "/src/assets/css/Search.css"
 import Footer from '../components/Footer';
+import Mid from '../components/Mid';
 const Search = () => {
   return (
     <>
   <div className='container'>
     <img className="logo" src='/src/assets/images/logo1.png' alt=''/>
   <div className='mid'>
-   <SearchBar/>
-   <Dropdown/>
-   <Search2/>
+  <Mid/>
    </div>
-   <h2 >Recent Save Search</h2><hr/>
+   <h2  >Recent Save Search</h2><hr/>
    </div>
    <Footer/>
     </>

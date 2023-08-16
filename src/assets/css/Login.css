@@ -31,7 +31,7 @@ p{
 font-family: 'Poppins', sans-serif;
 }
 h1{
-    color:rgb(9, 56, 87);
+    color:rgb(0, 39, 97);
     text-align:center ;
     font-size: 25px;
 }
@@ -42,7 +42,7 @@ h1{
     margin-top: 5%;
     border-radius: 5px;
     width:90%;
-   height: auto;
+   height: 40px;
 
 }
 .email,.password{
@@ -50,3 +50,13 @@ h1{
    padding-top:2%;
    margin-top: 2%;
 }
+.mainlogo{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+margin-left: 90px;
+}
+
+
