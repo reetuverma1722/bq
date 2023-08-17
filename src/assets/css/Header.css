@@ -1,0 +1,25 @@
+.logo2{
+    padding-left: 15px;
+    padding-top: 1px;
+    width: 240px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+}
+.clear{
+    border: none;
+    color: #000;
+    background-color: white;
+   
+}
+.logout{
+    border: none;
+    color: #000;
+    font: bold;
+    background-color: rgb(255, 254, 254);
+    
+}
