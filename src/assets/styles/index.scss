@@ -1,0 +1,335 @@
+
+table{
+    thead{
+        tr{
+            th{
+                text-align: left;
+                .twrap{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    color: rgb(167, 167, 167);
+                    cursor: pointer;
+                 
+                }
+            }
+        }
+    }
+    tbody{
+        .detailItem{
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+            .detail{
+                em{
+                   
+                    color: rgb(16, 173, 212);
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+table{
+
+    width: 100%;
+
+    thead{
+
+      td{
+
+border: 1px solid whitesmoke;
+
+      text-align: center;
+
+      color: #585757;
+
+      font-weight: 500;
+
+      padding: 0.5rem 0;
+
+      }
+
+    }
+
+    tbody{
+
+      td{
+
+      text-align: center;
+
+      border: 1px solid whitesmoke;
+
+       padding: 0.5rem 0;
+
+ 
+
+      }
+
+ 
+
+ 
+
+    }
+
+  }
+
+  .tableWrap {
+
+    position: relative;
+  
+   
+  
+    table {
+  
+      tr {
+  
+        border-bottom: 1px solid #dee2e6;
+  
+        th {
+  
+          color: #8b8b8b;
+  
+          font-weight: 600;
+  
+          cursor: pointer;
+  
+        }
+  
+        td,
+  
+        th {
+  
+          &:first-child {
+  
+            width: 40px;
+  
+          }
+  
+          &:nth-child(4){
+  
+            width: 200px;
+  
+          }
+  
+          &:nth-child(3){
+  
+            width: 70px;
+  
+          }
+  
+          &:last-child{
+  
+            min-width: 105px;
+  
+          }
+  
+          &:nth-last-child(2){
+  
+            min-width: 105px;
+  
+          }
+  
+        }
+  
+        td {
+  
+          em {
+  
+            font-weight: 500;
+  
+            color: #00bef3;
+  
+            font-style: normal;
+  
+            margin-bottom: 10px;
+  
+            cursor: pointer;
+  
+          }
+  
+          .detailItem {
+  
+            display: flex;
+  
+            gap: 30px;
+  
+            p {
+  
+              line-height: 30px;
+  
+              &.add {
+  
+                position: relative;
+  
+                z-index: 0;
+  
+                .icons {
+  
+                  position: absolute;
+  
+                  left: -85px;
+  
+                  top: 0;
+  
+                  display: flex;
+  
+                  align-items: center;
+  
+                   color: #172957;
+  
+                  .fa {
+  
+                    margin-right: 20px;
+  
+                    font-size: 24px;
+  
+                    margin-left: 10px;
+  
+                    color: #172957;
+  
+                    &.fa-map-marker{
+  
+                      &:hover{
+  
+                        color: #ffa415;
+  
+                      }
+  
+                    }
+  
+                  }
+  
+                }
+  
+              }
+  
+              .add2{
+  
+                 position: relative;
+  
+                 z-index: 0;
+  
+                  .icons {
+  
+                  position: absolute;
+  
+                  left: -60px;
+  
+                  top: 2px;
+  
+                  display: flex;
+  
+                  align-items: center;
+  
+   
+  
+   
+  
+                  img {
+  
+                    margin-right: 20px;
+  
+                   width: 25px;
+  
+                   height: 25px;
+  
+                   object-fit: contain;
+  
+                    margin-left: 10px;
+  
+                    border-radius: 0;
+  
+                  }
+  
+                  .img2{
+  
+                     margin-right: 20px;
+  
+                   width: 20px;
+  
+                   height: 20px;
+  
+                   object-fit: contain;
+  
+                    margin-left: 14px;
+  
+   
+  
+                    color: #172957;
+  
+                    font-weight: bold;
+  
+                    cursor: pointer;
+  
+                  }
+  
+                }
+  
+              }
+  
+            }
+  
+          }
+  
+        }
+  
+      }
+  
+    }
+  
+  }
+  
+  .tableWrap{
+  
+    overflow: auto;
+  
+    table-layout: fixed;
+  
+    height: calc(100vh - 235px);
+  
+    width: 100%;
+  
+    table{
+  
+      border-collapse: separate;
+  
+      border-spacing: 0;
+  
+      width: 100%;
+  
+      margin-bottom: 1rem;
+  
+      thead{
+  
+        th{
+  
+          border-top: 0;
+  
+          position: -webkit-sticky;
+  
+          position: sticky;
+  
+          top: 0;
+  
+          z-index: 4;
+  
+        }
+  
+      }
+  
+    }
+  
+  }
+  
+  .filterApply{
+  
+    .tableWrap{
+  
+      height: calc(100vh - 330px);
+  
+    }
+  
+  }

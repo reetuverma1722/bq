@@ -7,10 +7,11 @@ const Menu = () => {
   return (
     <>
 <div className='menu'>
+<div className='top'>
 <h4><span className='span1'><i className="fa-solid fa-bars "></i></span>Menu<span> <i className="fa-solid fa-arrow-left"></i></span> </h4>
-
+<a href="#home"><i className="fa fa-fw fa-home"></i> Save Search</a></div>
 <div className="sidebar">
-  <a href="#home"><i className="fa fa-fw fa-home"></i> Save Search</a>
+  
  <a href="#services"><i className="fa fa-fw fa-wrench"></i> Search Filter</a>
 
  <div className='filter-list'> 

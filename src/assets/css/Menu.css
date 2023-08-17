@@ -1,10 +1,16 @@
 .menu{
-    width: 25%  ;
-    background-color:rgb(240, 239, 239);
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 20px;
-   
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+.top{
+  width: 70%;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 h4{
     display: flex;
@@ -12,7 +18,7 @@ h4{
     flex-direction: row;
 padding-top: 5px;
 }
-span{
+.span-p{
     padding-top: 5px;
     padding-left: 250px;
 }
@@ -22,8 +28,6 @@ span{
 }
 .sidebar {
    height: 450px;
-   
- 
     z-index: 1;
     top: 0;
     left: 0;
@@ -39,6 +43,7 @@ span{
     color: #818181;
     display: block;
   }
+
   .btn-filter{
     
         color:black;
@@ -49,8 +54,6 @@ span{
         width:60%;
        height: 40px;
        margin-left: 50px;
-    
-    
   }
 .filter-list{
     padding-top: 10px;
