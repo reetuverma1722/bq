@@ -21,7 +21,7 @@ const Login = () => {
       }).then((result)=>{
         if(result.isConfirmed){
           console.log('Redirecting...');
-          history.push('/search');
+          history.push('/src/pages/Search.jsx');
          
         }
       })
@@ -47,10 +47,15 @@ const Login = () => {
   
     return (
       <>
+      <section className='login'>
+      <div className='login-wrap'>
         <div className='main'>
-          <img className='mainlogo' src='/src/assets/images/mainlogo.png' alt='' />
-          <h1>WELCOME TO BRIGHTQUERY</h1>
-          <p>PLEASE LOG IN</p>
+        <div className='login-logo-wrap'>
+          <img className='mainlogo' src='/src/assets/images/mainlogo.png' alt='' /></div>
+          <div className='login-logo-content'>
+          
+          <h1 className='heading'>WELCOME TO BRIGHTQUERY</h1>
+          <p>PLEASE LOG IN</p></div>
   
           <Formik
             initialValues={{ email: '', password: '' }}
@@ -62,24 +67,31 @@ const Login = () => {
  
 }}>
             <Form>
+            <div className='form-group2'>
               <label>Email</label>
               <Field className='email' type='text' name='email' placeholder='Enter Your Email' />
               <ErrorMessage style={{color:"red" }}  name='email' component='div' className='error' />
   
               <label>Password</label>
-              <Field className='password' type='password' name='password' placeholder='Enter Your Password' />
-              <ErrorMessage style={{color:"red"}} name='password' component='div' className='error' />
+              <div className='input-group2'>
+              <Field className='password' type='password' name='password' placeholder='Enter Your Password' /><span><i className="fa fa-eye-slash" aria-hidden="true"></i></span>
+              <ErrorMessage style={{color:"red"}} name='password' component='div' className='error' /></div>
   
-              <button className='btn' type='submit'>
+              <button className='btn-login' type='submit'>
                 Log In
               </button>
               <div className='or'>
-                <span>OR</span>
+                <span></span>
+                OR<span></span>
               </div>
-              <button className='linkedin'>Continue with LinkedIn</button>
-            </Form>
+              <button className='linkedin'>
+              <img  className='btn-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png' alt=''/>
+              Continue with LinkedIn</button>
+           </div> 
+           
+           </Form>
           </Formik>
-        </div>
+        </div></div></section>
       </>
     );
   };
